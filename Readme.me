@@ -1,0 +1,65 @@
+# Blockchain Proof-of-Work in Express.js
+
+This project implements a basic blockchain with Proof-of-Work (PoW) consensus mechanism using Node.js and Express.js. The blockchain includes features such as nonce generation, dynamic difficulty adjustment, and blockchain validation.
+
+## Project Structure
+
+
+## Prerequisites
+
+- Node.js installed
+- npm (Node Package Manager) installed
+
+## Installation
+
+1. Clone the repository:
+   ```sh
+   git clone  
+   cd blockchain_pow
+
+
+Mine a new block
+
+Mine a new block and add it to the blockchain.
+
+sh
+Copy code
+GET /mine
+Example:
+
+bash
+Copy code
+http://localhost:3000/mine
+
+View the blockchain
+
+Get the current state of the blockchain.
+
+sh
+Copy code
+GET /chain
+Example:
+
+bash
+Copy code
+http://localhost:3000/chain
+
+Validate the blockchain
+
+Check if the blockchain is valid.
+
+sh
+Copy code
+GET /validate
+Example:
+
+bash
+Copy code
+http://localhost:3000/validate
+
+
+Test the endpoints:
+
+Mine a new block: Visit http://localhost:3000/mine
+View the blockchain: Visit http://localhost:3000/chain
+Validate the blockchain: Visit http://localhost:3000/validate
